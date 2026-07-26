@@ -1,0 +1,30 @@
+# TEST FIXTURE — NOT A BUNDLED TRANSLATION.
+#
+# This manifest exists so that the licence gate has something to refuse. It is
+# deliberately kept out of `data/manifests/`, and `build-corpus` must exit
+# non-zero and write nothing when pointed at it.
+#
+# The NIV cannot be bundled or redistributed without a negotiated licence.
+# §4.3 says to design for its permanent absence rather than a future
+# exception, and this file is how that decision is kept honest: a gate nobody
+# tests is a gate that stops working.
+
+id = "eng-niv"
+abbrev = "NIV"
+name = "New International Version"
+language = "en"
+direction = "ltr"
+scheme = "eng"
+canon = "protestant"
+
+[license]
+spdx = ""
+redistributable = false
+commercial_use = false
+attribution = "Copyright Biblica, Inc. All rights reserved."
+
+[source]
+url = "https://example.invalid/not-distributable"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+publisher = "Biblica"
+archive = "does-not-exist.zip"

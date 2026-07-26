@@ -1,0 +1,12 @@
+[package]
+name = "bible-domain"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+# The domain layer depends on nothing. No serde, no SQL, no I/O.
+# Serialization lives at the boundary (core/app); persistence lives in
+# core/storage. This is enforced by the absence of dependencies rather
+# than by code review.
+[dependencies]

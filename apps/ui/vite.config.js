@@ -1,0 +1,10 @@
+import { defineConfig } from 'vite';
+import { svelte } from '@sveltejs/vite-plugin-svelte';
+
+// Tauri serves this over a custom protocol; a fixed port and no auto-open.
+export default defineConfig({
+  plugins: [svelte()],
+  clearScreen: false,
+  server: { port: 5173, strictPort: true },
+  build: { target: 'es2022', sourcemap: true },
+});

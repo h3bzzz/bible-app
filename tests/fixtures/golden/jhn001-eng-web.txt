@@ -1,0 +1,3075 @@
+eng-web JHN 1
+verses: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
+---- blocks ----
+para p
+  verse-start 1
+  char w:G1722
+    text "In"
+  text " "
+  char w:G1722
+    text "the"
+  text " beginning "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G3056
+    text "Word"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G3056
+    text "Word"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G1722
+    text "with"
+  text " "
+  char w:G2316
+    text "God"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G3056
+    text "Word"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G2316
+    text "God"
+  text ". "
+  verse-end 1
+  verse-start 2
+  text " "
+  char w:G1722
+    text "The"
+  text " "
+  char w:G3778
+    text "same"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G1722
+    text "in"
+  text " "
+  char w:G1722
+    text "the"
+  text " beginning "
+  char w:G1722
+    text "with"
+  text " "
+  char w:G2316
+    text "God"
+  text ". "
+  verse-end 2
+  verse-start 3
+  text " "
+  char w:G3956
+    text "All"
+  text " "
+  char w:G3956
+    text "things"
+  text " "
+  char w:G1096
+    text "were"
+  text " "
+  char w:G1096
+    text "made"
+  text " "
+  char w:G1223
+    text "through"
+  text " "
+  char w:G3739
+    text "him"
+  text ". "
+  char w:G5565
+    text "Without"
+  text " "
+  char w:G3739
+    text "him"
+  text ", "
+  char w:G3956
+    text "nothing"
+  text " "
+  char w:G1096
+    text "was"
+  text " "
+  char w:G1096
+    text "made"
+  text " "
+  char w:G3739
+    text "that"
+  text " "
+  char w:G3739
+    text "has"
+  text " "
+  char w:G1096
+    text "been"
+  text " "
+  char w:G1096
+    text "made"
+  text ". "
+  verse-end 3
+  verse-start 4
+  text " "
+  char w:G1722
+    text "In"
+  text " "
+  char w:G3588
+    text "him"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G2222
+    text "life"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G2222
+    text "life"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G5457
+    text "light"
+  text " "
+  char w:G2532
+    text "of"
+  text " "
+  char w:G3588
+    text "men"
+  text ". "
+  verse-end 4
+  verse-start 5
+  text " "
+  char w:G1722
+    text "The"
+  text " "
+  char w:G5457
+    text "light"
+  text " "
+  char w:G5316
+    text "shines"
+  text " "
+  char w:G1722
+    text "in"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G4653
+    text "darkness"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G4653
+    text "darkness"
+  text " hasn’"
+  char w:G3588
+    text "t"
+  text " overcome"
+  note-ref 0
+  text " "
+  char w:G2532
+    text "it"
+  text "."
+para p
+  verse-end 5
+  verse-start 6
+  char w:G1096
+    text "There"
+  text " "
+  char w:G1096
+    text "came"
+  text " "
+  char w:G1096
+    text "a"
+  text " "
+  char w:G2316
+    text "man"
+  text " "
+  char w:G2316
+    text "sent"
+  text " "
+  char w:G3844
+    text "from"
+  text " "
+  char w:G2316
+    text "God"
+  text ", whose "
+  char w:G3686
+    text "name"
+  text " "
+  char w:G1096
+    text "was"
+  text " "
+  char w:G2491
+    text "John"
+  text ". "
+  verse-end 6
+  verse-start 7
+  text " "
+  char w:G1519
+    text "The"
+  text " "
+  char w:G3778
+    text "same"
+  text " "
+  char w:G2064
+    text "came"
+  text " "
+  char w:G1519
+    text "as"
+  text " "
+  char w:G1519
+    text "a"
+  text " "
+  char w:G3140
+    text "witness"
+  text ", "
+  char w:G2443
+    text "that"
+  text " "
+  char w:G3778
+    text "he"
+  text " "
+  char w:G3778
+    text "might"
+  text " "
+  char w:G3140
+    text "testify"
+  text " "
+  char w:G4012
+    text "about"
+  text " "
+  char w:G1519
+    text "the"
+  text " "
+  char w:G5457
+    text "light"
+  text ", "
+  char w:G2443
+    text "that"
+  text " "
+  char w:G3956
+    text "all"
+  text " "
+  char w:G3778
+    text "might"
+  text " "
+  char w:G4100
+    text "believe"
+  text " "
+  char w:G1223
+    text "through"
+  text " "
+  char w:G3588
+    text "him"
+  text ". "
+  verse-end 7
+  verse-start 8
+  text " "
+  char w:G3588
+    text "He"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G3756
+    text "not"
+  text " "
+  char w:G3588
+    text "the"
+  text " "
+  char w:G5457
+    text "light"
+  text ", "
+  char w:G3588
+    text "but"
+  text " "
+  char w:G1510
+    text "was"
+  text " sent "
+  char w:G2443
+    text "that"
+  text " "
+  char w:G3588
+    text "he"
+  text " might "
+  char w:G3140
+    text "testify"
+  text " "
+  char w:G4012
+    text "about"
+  text " "
+  char w:G3588
+    text "the"
+  text " "
+  char w:G5457
+    text "light"
+  text ". "
+  verse-end 8
+  verse-start 9
+  text " "
+  char w:G1519
+    text "The"
+  text " "
+  char w:G3588
+    text "true"
+  text " "
+  char w:G5457
+    text "light"
+  text " "
+  char w:G3739
+    text "that"
+  text " "
+  char w:G5461
+    text "enlightens"
+  text " "
+  char w:G3956
+    text "everyone"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G2064
+    text "coming"
+  text " "
+  char w:G1519
+    text "into"
+  text " "
+  char w:G1519
+    text "the"
+  text " "
+  char w:G2889
+    text "world"
+  text "."
+para p
+  verse-end 9
+  verse-start 10
+  char w:G2532
+    text "He"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G1722
+    text "in"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G2889
+    text "world"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G2889
+    text "world"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G1096
+    text "made"
+  text " "
+  char w:G1223
+    text "through"
+  text " "
+  char w:G3588
+    text "him"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G2889
+    text "world"
+  text " didn’"
+  char w:G3588
+    text "t"
+  text " "
+  char w:G1097
+    text "recognize"
+  text " "
+  char w:G3588
+    text "him"
+  text ". "
+  verse-end 10
+  verse-start 11
+  text " "
+  char w:G2532
+    text "He"
+  text " "
+  char w:G2064
+    text "came"
+  text " "
+  char w:G1519
+    text "to"
+  text " "
+  char w:G1519
+    text "his"
+  text " "
+  char w:G2398
+    text "own"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3588
+    text "those"
+  text " "
+  char w:G3588
+    text "who"
+  text " "
+  char w:G3588
+    text "were"
+  text " "
+  char w:G1519
+    text "his"
+  text " "
+  char w:G2398
+    text "own"
+  text " didn’"
+  char w:G3588
+    text "t"
+  text " "
+  char w:G3880
+    text "receive"
+  text " "
+  char w:G3588
+    text "him"
+  text ". "
+  verse-end 11
+  verse-start 12
+  text " "
+  char w:G1161
+    text "But"
+  text " "
+  char w:G3745
+    text "as"
+  text " "
+  char w:G3745
+    text "many"
+  text " "
+  char w:G3745
+    text "as"
+  text " "
+  char w:G2983
+    text "received"
+  text " "
+  char w:G3588
+    text "him"
+  text ", "
+  char w:G1519
+    text "to"
+  text " "
+  char w:G3588
+    text "them"
+  text " "
+  char w:G1161
+    text "he"
+  text " "
+  char w:G1325
+    text "gave"
+  text " "
+  char w:G1519
+    text "the"
+  text " "
+  char w:G1849
+    text "right"
+  text " "
+  char w:G1519
+    text "to"
+  text " "
+  char w:G1096
+    text "become"
+  text " "
+  char w:G2316
+    text "God"
+  text "’s "
+  char w:G5043
+    text "children"
+  text ", "
+  char w:G1519
+    text "to"
+  text " "
+  char w:G3588
+    text "those"
+  text " "
+  char w:G3588
+    text "who"
+  text " "
+  char w:G4100
+    text "believe"
+  text " "
+  char w:G1519
+    text "in"
+  text " "
+  char w:G1519
+    text "his"
+  text " "
+  char w:G3686
+    text "name"
+  text ": "
+  verse-end 12
+  verse-start 13
+  text " "
+  char w:G3739
+    text "who"
+  text " "
+  char w:G3739
+    text "were"
+  text " "
+  char w:G1080
+    text "born"
+  text ", "
+  char w:G3756
+    text "not"
+  text " "
+  char w:G1537
+    text "of"
+  text " blood, "
+  char w:G3761
+    text "nor"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G1537
+    text "the"
+  text " "
+  char w:G2307
+    text "will"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G1537
+    text "the"
+  text " "
+  char w:G4561
+    text "flesh"
+  text ", "
+  char w:G3761
+    text "nor"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G1537
+    text "the"
+  text " "
+  char w:G2307
+    text "will"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G3739
+    text "man"
+  text ", "
+  char w:G2316
+    text "but"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G2316
+    text "God"
+  text "."
+para p
+  verse-end 13
+  verse-start 14
+  char w:G1722
+    text "The"
+  text " "
+  char w:G3056
+    text "Word"
+  text " "
+  char w:G1096
+    text "became"
+  text " "
+  char w:G4561
+    text "flesh"
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G2532
+    text "lived"
+  text " "
+  char w:G1722
+    text "among"
+  text " "
+  char w:G2249
+    text "us"
+  text ". "
+  char w:G2249
+    text "We"
+  text " "
+  char w:G2300
+    text "saw"
+  text " "
+  char w:G1722
+    text "his"
+  text " "
+  char w:G1391
+    text "glory"
+  text ", "
+  char w:G3588
+    text "such"
+  text " "
+  char w:G1391
+    text "glory"
+  text " "
+  char w:G5613
+    text "as"
+  text " "
+  char w:G3056
+    text "of"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G3439
+    text "only"
+  text " "
+  char w:G1096
+    text "born"
+  note-ref 1
+  text " Son "
+  char w:G3056
+    text "of"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G3962
+    text "Father"
+  text ", "
+  char w:G4134
+    text "full"
+  text " "
+  char w:G3056
+    text "of"
+  text " "
+  char w:G5485
+    text "grace"
+  text " "
+  char w:G2532
+    text "and"
+  text " truth. "
+  verse-end 14
+  verse-start 15
+  text " "
+  char w:G2491
+    text "John"
+  text " "
+  char w:G3140
+    text "testified"
+  text " "
+  char w:G4012
+    text "about"
+  text " "
+  char w:G3588
+    text "him"
+  text ". "
+  char w:G2532
+    text "He"
+  text " "
+  char w:G2896
+    text "cried"
+  text " "
+  char w:G2896
+    text "out"
+  text ", "
+  char w:G3004
+    text "saying"
+  text ", “"
+  char w:G3778
+    text "This"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G4012
+    text "of"
+  text " "
+  char w:G3739
+    text "whom"
+  text " "
+  char w:G1473
+    text "I"
+  text " "
+  char w:G3004
+    text "said"
+  text ", ‘"
+  char w:G2532
+    text "He"
+  text " "
+  char w:G3739
+    text "who"
+  text " "
+  char w:G2064
+    text "comes"
+  text " "
+  char w:G3694
+    text "after"
+  text " "
+  char w:G1473
+    text "me"
+  text " "
+  char w:G3739
+    text "has"
+  text " surpassed "
+  char w:G1473
+    text "me"
+  text ", "
+  char w:G3754
+    text "for"
+  text " "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G1715
+    text "before"
+  text " "
+  char w:G1473
+    text "me"
+  text ".’” "
+  verse-end 15
+  verse-start 16
+  text " "
+  char w:G1537
+    text "From"
+  text " "
+  char w:G3956
+    text "his"
+  text " "
+  char w:G4138
+    text "fullness"
+  text " "
+  char w:G2249
+    text "we"
+  text " "
+  char w:G3956
+    text "all"
+  text " "
+  char w:G2983
+    text "received"
+  text " "
+  char w:G5485
+    text "grace"
+  text " "
+  char w:G3588
+    text "upon"
+  text " "
+  char w:G5485
+    text "grace"
+  text ". "
+  verse-end 16
+  verse-start 17
+  text " "
+  char w:G3754
+    text "For"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G3551
+    text "law"
+  text " "
+  char w:G1096
+    text "was"
+  text " "
+  char w:G1325
+    text "given"
+  text " "
+  char w:G1223
+    text "through"
+  text " "
+  char w:G3475
+    text "Moses"
+  text ". "
+  char w:G5485
+    text "Grace"
+  text " "
+  char w:G2532
+    text "and"
+  text " truth "
+  char w:G3588
+    text "were"
+  text " "
+  char w:G1096
+    text "realized"
+  text " "
+  char w:G1223
+    text "through"
+  text " "
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G5547
+    text "Christ"
+  text "."
+  note-ref 2
+  text " "
+  verse-end 17
+  verse-start 18
+  text " "
+  char w:G3762
+    text "No"
+  text " "
+  char w:G3762
+    text "one"
+  text " "
+  char w:G2316
+    text "has"
+  text " "
+  char w:G3708
+    text "seen"
+  text " "
+  char w:G2316
+    text "God"
+  text " "
+  char w:G1519
+    text "at"
+  text " "
+  char w:G3762
+    text "any"
+  text " "
+  char w:G4455
+    text "time"
+  text ". "
+  char w:G1519
+    text "The"
+  text " "
+  char w:G3439
+    text "only"
+  text " born"
+  note-ref 3
+  text " "
+  char w:G5207
+    text "Son"
+  text ","
+  note-ref 4
+  text " "
+  char w:G3588
+    text "who"
+  text " "
+  char w:G1510
+    text "is"
+  text " "
+  char w:G1519
+    text "in"
+  text " "
+  char w:G1519
+    text "the"
+  text " "
+  char w:G2859
+    text "bosom"
+  text " "
+  char w:G5207
+    text "of"
+  text " "
+  char w:G1519
+    text "the"
+  text " "
+  char w:G3962
+    text "Father"
+  text ", "
+  char w:G2316
+    text "has"
+  text " "
+  char w:G1834
+    text "declared"
+  text " "
+  char w:G3588
+    text "him"
+  text "."
+para p
+  verse-end 18
+  verse-start 19
+  char w:G3778
+    text "This"
+  text " "
+  char w:G1510
+    text "is"
+  text " "
+  char w:G2491
+    text "John"
+  text "’s "
+  char w:G3141
+    text "testimony"
+  text ", "
+  char w:G3753
+    text "when"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G2453
+    text "Jews"
+  text " "
+  char w:G2532
+    text "sent"
+  text " "
+  char w:G2409
+    text "priests"
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3019
+    text "Levites"
+  text " "
+  char w:G1537
+    text "from"
+  text " "
+  char w:G2414
+    text "Jerusalem"
+  text " "
+  char w:G2443
+    text "to"
+  text " "
+  char w:G2065
+    text "ask"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G5101
+    text "Who"
+  text " "
+  char w:G1510
+    text "are"
+  text " "
+  char w:G4771
+    text "you"
+  text "?”"
+para p
+  verse-end 19
+  verse-start 20
+  char w:G2532
+    text "He"
+  text " "
+  char w:G3754
+    text "declared"
+  text ", "
+  char w:G2532
+    text "and"
+  text " didn’"
+  char w:G3588
+    text "t"
+  text " "
+  char w:G3588
+    text "deny"
+  text ", "
+  char w:G2532
+    text "but"
+  text " "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G3754
+    text "declared"
+  text ", “"
+  char w:G1473
+    text "I"
+  text " "
+  char w:G1510
+    text "am"
+  text " "
+  char w:G3756
+    text "not"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G5547
+    text "Christ"
+  text ".”"
+para p
+  verse-end 20
+  verse-start 21
+  char w:G2532
+    text "They"
+  text " "
+  char w:G2065
+    text "asked"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G5101
+    text "What"
+  text " "
+  char w:G3767
+    text "then"
+  text "? "
+  char w:G1510
+    text "Are"
+  text " "
+  char w:G4771
+    text "you"
+  text " "
+  char w:G2243
+    text "Elijah"
+  text "?”"
+para p
+  char w:G2532
+    text "He"
+  text " "
+  char w:G3004
+    text "said"
+  text ", “"
+  char w:G2532
+    text "I"
+  text " "
+  char w:G1510
+    text "am"
+  text " "
+  char w:G3756
+    text "not"
+  text ".”"
+para p
+  text "“"
+  char w:G1510
+    text "Are"
+  text " "
+  char w:G4771
+    text "you"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G4396
+    text "prophet"
+  text "?”"
+para p
+  char w:G2532
+    text "He"
+  text " "
+  char w:G3004
+    text "answered"
+  text ", “"
+  char w:G3756
+    text "No"
+  text ".”"
+para p
+  verse-end 21
+  verse-start 22
+  char w:G3588
+    text "They"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G3767
+    text "therefore"
+  text " "
+  char w:G2443
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G5101
+    text "Who"
+  text " "
+  char w:G1510
+    text "are"
+  text " "
+  char w:G1325
+    text "you"
+  text "? "
+  char w:G1325
+    text "Give"
+  text " "
+  char w:G1325
+    text "us"
+  text " "
+  char w:G1325
+    text "an"
+  text " answer "
+  char w:G2443
+    text "to"
+  text " "
+  char w:G2443
+    text "take"
+  text " "
+  char w:G1325
+    text "back"
+  text " "
+  char w:G2443
+    text "to"
+  text " "
+  char w:G3588
+    text "those"
+  text " "
+  char w:G5101
+    text "who"
+  text " "
+  char w:G3992
+    text "sent"
+  text " "
+  char w:G1325
+    text "us"
+  text ". "
+  char w:G5101
+    text "What"
+  text " "
+  char w:G5101
+    text "do"
+  text " "
+  char w:G1325
+    text "you"
+  text " "
+  char w:G3004
+    text "say"
+  text " "
+  char w:G4012
+    text "about"
+  text " "
+  char w:G4572
+    text "yourself"
+  text "?”"
+para p
+  verse-end 22
+  verse-start 23
+  char w:G3588
+    text "He"
+  text " "
+  char w:G3004
+    text "said"
+  text ", “"
+  char w:G1473
+    text "I"
+  text " "
+  char w:G1473
+    text "am"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G5456
+    text "voice"
+  text " "
+  char w:G2962
+    text "of"
+  text " "
+  char w:G3588
+    text "one"
+  text " crying "
+  char w:G1722
+    text "in"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G2048
+    text "wilderness"
+  text ", ‘"
+  char w:G2116
+    text "Make"
+  text " "
+  char w:G2116
+    text "straight"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G3598
+    text "way"
+  text " "
+  char w:G2962
+    text "of"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G2962
+    text "Lord"
+  text ",’"
+  note-ref 5
+  text " "
+  char w:G2531
+    text "as"
+  text " "
+  char w:G2268
+    text "Isaiah"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G4396
+    text "prophet"
+  text " "
+  char w:G3004
+    text "said"
+  text ".”"
+para p
+  verse-end 23
+  verse-start 24
+  char w:G2532
+    text "The"
+  text " ones "
+  char w:G3588
+    text "who"
+  text " "
+  char w:G2532
+    text "had"
+  text " "
+  char w:G1510
+    text "been"
+  text " "
+  char w:G2532
+    text "sent"
+  text " "
+  char w:G1510
+    text "were"
+  text " "
+  char w:G1537
+    text "from"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G5330
+    text "Pharisees"
+  text ". "
+  verse-end 24
+  verse-start 25
+  text " "
+  char w:G2532
+    text "They"
+  text " "
+  char w:G2065
+    text "asked"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G5101
+    text "Why"
+  text " "
+  char w:G3767
+    text "then"
+  text " "
+  char w:G5101
+    text "do"
+  text " "
+  char w:G4771
+    text "you"
+  text " baptize "
+  char w:G1487
+    text "if"
+  text " "
+  char w:G4771
+    text "you"
+  text " "
+  char w:G1510
+    text "are"
+  text " "
+  char w:G3756
+    text "not"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G5547
+    text "Christ"
+  text ", "
+  char w:G3761
+    text "nor"
+  text " "
+  char w:G2243
+    text "Elijah"
+  text ", "
+  char w:G3761
+    text "nor"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G4396
+    text "prophet"
+  text "?”"
+para p
+  verse-end 25
+  verse-start 26
+  char w:G2491
+    text "John"
+  text " "
+  char w:G3004
+    text "answered"
+  text " "
+  char w:G3588
+    text "them"
+  text ", “"
+  char w:G1473
+    text "I"
+  text " baptize "
+  char w:G1722
+    text "in"
+  text " "
+  char w:G5204
+    text "water"
+  text ", "
+  char w:G3588
+    text "but"
+  text " "
+  char w:G1722
+    text "among"
+  text " "
+  char w:G5210
+    text "you"
+  text " "
+  char w:G2476
+    text "stands"
+  text " "
+  char w:G3739
+    text "one"
+  text " "
+  char w:G3739
+    text "whom"
+  text " "
+  char w:G5210
+    text "you"
+  text " don’"
+  char w:G3588
+    text "t"
+  text " "
+  char w:G1492
+    text "know"
+  text ". "
+  verse-end 26
+  verse-start 27
+  text " "
+  char w:G3739
+    text "He"
+  text " "
+  char w:G1510
+    text "is"
+  text " "
+  char w:G3588
+    text "the"
+  text " "
+  char w:G3739
+    text "one"
+  text " "
+  char w:G3739
+    text "who"
+  text " "
+  char w:G2064
+    text "comes"
+  text " "
+  char w:G3694
+    text "after"
+  text " "
+  char w:G1473
+    text "me"
+  text ", "
+  char w:G3739
+    text "who"
+  text " "
+  char w:G1510
+    text "is"
+  text " preferred "
+  char w:G3588
+    text "before"
+  text " "
+  char w:G1473
+    text "me"
+  text ", "
+  char w:G3739
+    text "whose"
+  text " "
+  char w:G5266
+    text "sandal"
+  text " strap "
+  char w:G1473
+    text "I"
+  text "’m "
+  char w:G3756
+    text "not"
+  text " worthy "
+  char w:G2443
+    text "to"
+  text " loosen.” "
+  verse-end 27
+  verse-start 28
+  text " "
+  char w:G3778
+    text "These"
+  text " "
+  char w:G3778
+    text "things"
+  text " "
+  char w:G1510
+    text "were"
+  text " "
+  char w:G1096
+    text "done"
+  text " "
+  char w:G1722
+    text "in"
+  text " Bethany "
+  char w:G4008
+    text "beyond"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G2446
+    text "Jordan"
+  text ", "
+  char w:G3699
+    text "where"
+  text " "
+  char w:G2491
+    text "John"
+  text " "
+  char w:G1510
+    text "was"
+  text " baptizing."
+para p
+  verse-end 28
+  verse-start 29
+  char w:G2532
+    text "The"
+  text " "
+  char w:G1887
+    text "next"
+  text " "
+  char w:G1887
+    text "day"
+  text ", "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G3708
+    text "saw"
+  text " "
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G2064
+    text "coming"
+  text " "
+  char w:G4314
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3004
+    text "said"
+  text ", “"
+  char w:G2396
+    text "Behold"
+  text ","
+  note-ref 6
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G3004
+    text "Lamb"
+  text " "
+  char w:G2532
+    text "of"
+  text " "
+  char w:G2316
+    text "God"
+  text ", "
+  char w:G3588
+    text "who"
+  text " takes away "
+  char w:G2532
+    text "the"
+  text " sin "
+  char w:G2532
+    text "of"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G2889
+    text "world"
+  text "! "
+  verse-end 29
+  verse-start 30
+  text " "
+  char w:G3778
+    text "This"
+  text " "
+  char w:G1510
+    text "is"
+  text " "
+  char w:G3739
+    text "he"
+  text " "
+  char w:G5228
+    text "of"
+  text " "
+  char w:G3739
+    text "whom"
+  text " "
+  char w:G1473
+    text "I"
+  text " "
+  char w:G3004
+    text "said"
+  text ", ‘"
+  char w:G3694
+    text "After"
+  text " "
+  char w:G1473
+    text "me"
+  text " "
+  char w:G2064
+    text "comes"
+  text " "
+  char w:G1096
+    text "a"
+  text " "
+  char w:G3778
+    text "man"
+  text " "
+  char w:G3739
+    text "who"
+  text " "
+  char w:G1510
+    text "is"
+  text " "
+  char w:G1096
+    text "preferred"
+  text " "
+  char w:G1715
+    text "before"
+  text " "
+  char w:G1473
+    text "me"
+  text ", "
+  char w:G3754
+    text "for"
+  text " "
+  char w:G3739
+    text "he"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G1715
+    text "before"
+  text " "
+  char w:G1473
+    text "me"
+  text ".’ "
+  verse-end 30
+  verse-start 31
+  text " "
+  char w:G1473
+    text "I"
+  text " didn’"
+  char w:G3588
+    text "t"
+  text " "
+  char w:G1492
+    text "know"
+  text " "
+  char w:G3588
+    text "him"
+  text ", "
+  char w:G3588
+    text "but"
+  text " "
+  char w:G1223
+    text "for"
+  text " "
+  char w:G3778
+    text "this"
+  text " "
+  char w:G1223
+    text "reason"
+  text " "
+  char w:G1473
+    text "I"
+  text " "
+  char w:G2064
+    text "came"
+  text " baptizing "
+  char w:G1722
+    text "in"
+  text " "
+  char w:G5204
+    text "water"
+  text ", "
+  char w:G2443
+    text "that"
+  text " "
+  char w:G3778
+    text "he"
+  text " "
+  char w:G2064
+    text "would"
+  text " "
+  char w:G3756
+    text "be"
+  text " "
+  char w:G5319
+    text "revealed"
+  text " "
+  char w:G2443
+    text "to"
+  text " "
+  char w:G2474
+    text "Israel"
+  text ".” "
+  verse-end 31
+  verse-start 32
+  text " "
+  char w:G2491
+    text "John"
+  text " "
+  char w:G3140
+    text "testified"
+  text ", "
+  char w:G3004
+    text "saying"
+  text ", “"
+  char w:G2532
+    text "I"
+  text " "
+  char w:G2532
+    text "have"
+  text " "
+  char w:G2300
+    text "seen"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G4151
+    text "Spirit"
+  text " "
+  char w:G2597
+    text "descending"
+  text " "
+  char w:G5613
+    text "like"
+  text " "
+  char w:G5613
+    text "a"
+  text " "
+  char w:G4058
+    text "dove"
+  text " "
+  char w:G1537
+    text "out"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G3772
+    text "heaven"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G2532
+    text "it"
+  text " "
+  char w:G3306
+    text "remained"
+  text " "
+  char w:G1909
+    text "on"
+  text " "
+  char w:G3588
+    text "him"
+  text ". "
+  verse-end 32
+  verse-start 33
+  text " "
+  char w:G1473
+    text "I"
+  text " didn’"
+  char w:G3588
+    text "t"
+  text " "
+  char w:G1492
+    text "recognize"
+  text " "
+  char w:G3588
+    text "him"
+  text ", "
+  char w:G2532
+    text "but"
+  text " "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G3739
+    text "who"
+  text " "
+  char w:G3992
+    text "sent"
+  text " "
+  char w:G1473
+    text "me"
+  text " "
+  char w:G2532
+    text "to"
+  text " baptize "
+  char w:G1722
+    text "in"
+  text " "
+  char w:G5204
+    text "water"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G1473
+    text "me"
+  text ", ‘"
+  char w:G1909
+    text "On"
+  text " "
+  char w:G3739
+    text "whomever"
+  text " "
+  char w:G3739
+    text "you"
+  text " "
+  char w:G1510
+    text "will"
+  text " "
+  char w:G3708
+    text "see"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G4151
+    text "Spirit"
+  text " "
+  char w:G2597
+    text "descending"
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3306
+    text "remaining"
+  text " "
+  char w:G1909
+    text "on"
+  text " "
+  char w:G3588
+    text "him"
+  text " "
+  char w:G1510
+    text "is"
+  text " "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G3739
+    text "who"
+  text " baptizes "
+  char w:G1722
+    text "in"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G4151
+    text "Holy"
+  text " "
+  char w:G4151
+    text "Spirit"
+  text ".’ "
+  verse-end 33
+  verse-start 34
+  text " "
+  char w:G2532
+    text "I"
+  text " "
+  char w:G2532
+    text "have"
+  text " "
+  char w:G3708
+    text "seen"
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G2532
+    text "have"
+  text " "
+  char w:G3140
+    text "testified"
+  text " "
+  char w:G3754
+    text "that"
+  text " "
+  char w:G3778
+    text "this"
+  text " "
+  char w:G1510
+    text "is"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G5207
+    text "Son"
+  text " "
+  char w:G5207
+    text "of"
+  text " "
+  char w:G2316
+    text "God"
+  text ".”"
+para p
+  verse-end 34
+  verse-start 35
+  char w:G3825
+    text "Again"
+  text ", "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G1887
+    text "next"
+  text " "
+  char w:G1887
+    text "day"
+  text ", "
+  char w:G2491
+    text "John"
+  text " "
+  char w:G3588
+    text "was"
+  text " "
+  char w:G2476
+    text "standing"
+  text " "
+  char w:G1537
+    text "with"
+  text " "
+  char w:G1417
+    text "two"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G2532
+    text "his"
+  text " "
+  char w:G3101
+    text "disciples"
+  text ", "
+  verse-end 35
+  verse-start 36
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G3708
+    text "looked"
+  text " "
+  char w:G1689
+    text "at"
+  text " "
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G2532
+    text "as"
+  text " "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G4043
+    text "walked"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3004
+    text "said"
+  text ", “"
+  char w:G2396
+    text "Behold"
+  text ", "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G3004
+    text "Lamb"
+  text " "
+  char w:G2532
+    text "of"
+  text " "
+  char w:G2316
+    text "God"
+  text "!” "
+  verse-end 36
+  verse-start 37
+  text " "
+  char w:G2532
+    text "The"
+  text " "
+  char w:G1417
+    text "two"
+  text " "
+  char w:G3101
+    text "disciples"
+  text " heard "
+  char w:G3588
+    text "him"
+  text " "
+  char w:G2980
+    text "speak"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G2532
+    text "they"
+  text " followed "
+  char w:G2424
+    text "Jesus"
+  text ". "
+  verse-end 37
+  verse-start 38
+  text " "
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G4762
+    text "turned"
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G2300
+    text "saw"
+  text " "
+  char w:G3588
+    text "them"
+  text " following, "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G3588
+    text "them"
+  text ", "
+  char wj
+    text "“"
+    char w:G5101
+      text "What"
+    text " "
+    char w:G3588
+      text "are"
+    text " "
+    char w:G3004
+      text "you"
+    text " "
+    char w:G2212
+      text "looking"
+    text " "
+    char w:G1161
+      text "for"
+    text "?”"
+para p
+  char w:G2532
+    text "They"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G4461
+    text "Rabbi"
+  text "” ("
+  char w:G3588
+    text "which"
+  text " "
+  char w:G3588
+    text "is"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G3004
+    text "say"
+  text ", "
+  char w:G2532
+    text "being"
+  text " "
+  char w:G3177
+    text "interpreted"
+  text ", "
+  char w:G1320
+    text "Teacher"
+  text "), “"
+  char w:G4226
+    text "where"
+  text " "
+  char w:G3588
+    text "are"
+  text " "
+  char w:G3004
+    text "you"
+  text " "
+  char w:G3306
+    text "staying"
+  text "?”"
+para p
+  verse-end 38
+  verse-start 39
+  char w:G2532
+    text "He"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G3588
+    text "them"
+  text ", "
+  char wj
+    text "“"
+    char w:G2064
+      text "Come"
+    text " "
+    char w:G2532
+      text "and"
+    text " "
+    char w:G3708
+      text "see"
+    text ".”"
+para p
+  char w:G2532
+    text "They"
+  text " "
+  char w:G2064
+    text "came"
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3708
+    text "saw"
+  text " "
+  char w:G4226
+    text "where"
+  text " "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G3306
+    text "staying"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G2532
+    text "they"
+  text " "
+  char w:G3306
+    text "stayed"
+  text " "
+  char w:G3844
+    text "with"
+  text " "
+  char w:G3588
+    text "him"
+  text " "
+  char w:G3739
+    text "that"
+  text " "
+  char w:G2250
+    text "day"
+  text ". "
+  char w:G2532
+    text "It"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G5613
+    text "about"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G1182
+    text "tenth"
+  text " "
+  char w:G5610
+    text "hour"
+  text "."
+  note-ref 7
+  text " "
+  verse-end 39
+  verse-start 40
+  text " "
+  char w:G1520
+    text "One"
+  text " "
+  char w:G2250
+    text "of"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G1417
+    text "two"
+  text " "
+  char w:G3588
+    text "who"
+  text " heard "
+  char w:G2491
+    text "John"
+  text " "
+  char w:G2532
+    text "and"
+  text " followed "
+  char w:G3588
+    text "him"
+  text " "
+  char w:G1510
+    text "was"
+  text " Andrew, "
+  char w:G4613
+    text "Simon"
+  text " "
+  char w:G4074
+    text "Peter"
+  text "’s brother. "
+  verse-end 40
+  verse-start 41
+  text " "
+  char w:G2532
+    text "He"
+  text " "
+  char w:G4413
+    text "first"
+  text " "
+  char w:G2147
+    text "found"
+  text " "
+  char w:G2398
+    text "his"
+  text " "
+  char w:G2398
+    text "own"
+  text " brother, "
+  char w:G4613
+    text "Simon"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G2532
+    text "We"
+  text " "
+  char w:G2532
+    text "have"
+  text " "
+  char w:G2147
+    text "found"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G5547
+    text "Messiah"
+  text "!” ("
+  char w:G3588
+    text "which"
+  text " "
+  char w:G1510
+    text "is"
+  text ", "
+  char w:G1510
+    text "being"
+  text " "
+  char w:G3177
+    text "interpreted"
+  text ", "
+  char w:G5547
+    text "Christ"
+  note-ref 8
+  text "). "
+  verse-end 41
+  verse-start 42
+  text " "
+  char w:G2532
+    text "He"
+  text " "
+  char w:G2532
+    text "brought"
+  text " "
+  char w:G3588
+    text "him"
+  text " "
+  char w:G4314
+    text "to"
+  text " "
+  char w:G2424
+    text "Jesus"
+  text ". "
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G1689
+    text "looked"
+  text " "
+  char w:G4314
+    text "at"
+  text " "
+  char w:G3588
+    text "him"
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3004
+    text "said"
+  text ", "
+  char wj
+    text "“"
+    char w:G4771
+      text "You"
+    text " "
+    char w:G1510
+      text "are"
+    text " "
+    char w:G4613
+      text "Simon"
+    text " "
+    char w:G2532
+      text "the"
+    text " "
+    char w:G5207
+      text "son"
+    text " "
+    char w:G5207
+      text "of"
+    text " Jonah. "
+    char w:G4771
+      text "You"
+    text " "
+    char w:G2532
+      text "shall"
+    text " "
+    char w:G1510
+      text "be"
+    text " "
+    char w:G2564
+      text "called"
+    text " "
+    char w:G2786
+      text "Cephas"
+    text "”"
+  text " ("
+  char w:G3588
+    text "which"
+  text " "
+  char w:G1510
+    text "is"
+  text " "
+  char w:G4314
+    text "by"
+  text " "
+  char w:G2059
+    text "interpretation"
+  text ", "
+  char w:G4074
+    text "Peter"
+  text ")."
+  note-ref 9
+para p
+  verse-end 42
+  verse-start 43
+  char w:G1519
+    text "On"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G1887
+    text "next"
+  text " "
+  char w:G1887
+    text "day"
+  text ", "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G1510
+    text "was"
+  text " determined "
+  char w:G1519
+    text "to"
+  text " "
+  char w:G1831
+    text "go"
+  text " "
+  char w:G1831
+    text "out"
+  text " "
+  char w:G1519
+    text "into"
+  text " "
+  char w:G1056
+    text "Galilee"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G2532
+    text "he"
+  text " "
+  char w:G2147
+    text "found"
+  text " "
+  char w:G5376
+    text "Philip"
+  text ". "
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G1519
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", "
+  char wj
+    text "“Follow "
+    char w:G1473
+      text "me"
+    text ".”"
+  text " "
+  verse-end 43
+  verse-start 44
+  text " "
+  char w:G1161
+    text "Now"
+  text " "
+  char w:G5376
+    text "Philip"
+  text " "
+  char w:G1510
+    text "was"
+  text " "
+  char w:G2532
+    text "from"
+  text " Bethsaida, "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G4172
+    text "city"
+  text " "
+  char w:G2532
+    text "of"
+  text " Andrew "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G4074
+    text "Peter"
+  text ". "
+  verse-end 44
+  verse-start 45
+  text " "
+  char w:G5376
+    text "Philip"
+  text " "
+  char w:G2147
+    text "found"
+  text " "
+  char w:G3482
+    text "Nathanael"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G2532
+    text "We"
+  text " "
+  char w:G2532
+    text "have"
+  text " "
+  char w:G2147
+    text "found"
+  text " "
+  char w:G3588
+    text "him"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G3588
+    text "whom"
+  text " "
+  char w:G3475
+    text "Moses"
+  text " "
+  char w:G1722
+    text "in"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G3551
+    text "law"
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G2532
+    text "also"
+  text " "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G4396
+    text "prophets"
+  text ", "
+  char w:G1125
+    text "wrote"
+  text ": "
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G3478
+    text "Nazareth"
+  text ", "
+  char w:G1722
+    text "the"
+  text " "
+  char w:G5207
+    text "son"
+  text " "
+  char w:G1537
+    text "of"
+  text " "
+  char w:G2501
+    text "Joseph"
+  text ".”"
+para p
+  verse-end 45
+  verse-start 46
+  char w:G3482
+    text "Nathanael"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G1410
+    text "Can"
+  text " "
+  char w:G1410
+    text "any"
+  text " "
+  char w:G3588
+    text "good"
+  text " "
+  char w:G3739
+    text "thing"
+  text " "
+  char w:G2064
+    text "come"
+  text " "
+  char w:G2532
+    text "out"
+  text " "
+  char w:G5207
+    text "of"
+  text " "
+  char w:G3478
+    text "Nazareth"
+  text "?”"
+para p
+  char w:G5376
+    text "Philip"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G2064
+    text "Come"
+  text " "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3708
+    text "see"
+  text ".”"
+para p
+  verse-end 46
+  verse-start 47
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G3708
+    text "saw"
+  text " "
+  char w:G3482
+    text "Nathanael"
+  text " "
+  char w:G2064
+    text "coming"
+  text " "
+  char w:G4314
+    text "to"
+  text " "
+  char w:G3708
+    text "him"
+  text ", "
+  char w:G2532
+    text "and"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G4012
+    text "about"
+  text " "
+  char w:G3708
+    text "him"
+  text ", "
+  char wj
+    text "“"
+    char w:G2396
+      text "Behold"
+    text ", "
+    char w:G2532
+      text "an"
+    text " "
+    char w:G2475
+      text "Israelite"
+    text " "
+    char w:G2532
+      text "indeed"
+    text ", "
+    char w:G1722
+      text "in"
+    text " "
+    char w:G5101
+      text "whom"
+    text " "
+    char w:G1510
+      text "is"
+    text " "
+    char w:G2532
+      text "no"
+    text " "
+    char w:G1388
+      text "deceit"
+    text "!”"
+para p
+  verse-end 47
+  verse-start 48
+  char w:G3482
+    text "Nathanael"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G4314
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G4159
+    text "How"
+  text " "
+  char w:G2532
+    text "do"
+  text " "
+  char w:G4771
+    text "you"
+  text " "
+  char w:G1097
+    text "know"
+  text " "
+  char w:G1473
+    text "me"
+  text "?”"
+para p
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G3004
+    text "answered"
+  text " "
+  char w:G3588
+    text "him"
+  text ", "
+  char wj
+    text "“"
+    char w:G4253
+      text "Before"
+    text " "
+    char w:G5376
+      text "Philip"
+    text " "
+    char w:G3004
+      text "called"
+    text " "
+    char w:G4771
+      text "you"
+    text ", "
+    char w:G2532
+      text "when"
+    text " "
+    char w:G4771
+      text "you"
+    text " "
+    char w:G1510
+      text "were"
+    text " "
+    char w:G5259
+      text "under"
+    text " "
+    char w:G1722
+      text "the"
+    text " "
+    char w:G4808
+      text "fig"
+    text " "
+    char w:G4808
+      text "tree"
+    text ", "
+    char w:G1473
+      text "I"
+    text " "
+    char w:G3708
+      text "saw"
+    text " "
+    char w:G4771
+      text "you"
+    text ".”"
+para p
+  verse-end 48
+  verse-start 49
+  char w:G3482
+    text "Nathanael"
+  text " "
+  char w:G3004
+    text "answered"
+  text " "
+  char w:G3588
+    text "him"
+  text ", “"
+  char w:G4461
+    text "Rabbi"
+  text ", "
+  char w:G4771
+    text "you"
+  text " "
+  char w:G1510
+    text "are"
+  text " "
+  char w:G2532
+    text "the"
+  text " "
+  char w:G5207
+    text "Son"
+  text " "
+  char w:G5207
+    text "of"
+  text " "
+  char w:G2316
+    text "God"
+  text "! "
+  char w:G4771
+    text "You"
+  text " "
+  char w:G1510
+    text "are"
+  text " "
+  char w:G3588
+    text "King"
+  text " "
+  char w:G5207
+    text "of"
+  text " "
+  char w:G2474
+    text "Israel"
+  text "!”"
+para p
+  verse-end 49
+  verse-start 50
+  char w:G2424
+    text "Jesus"
+  text " "
+  char w:G3004
+    text "answered"
+  text " "
+  char w:G3588
+    text "him"
+  text ", "
+  char wj
+    text "“"
+    char w:G2532
+      text "Because"
+    text " "
+    char w:G2532
+      text "I"
+    text " "
+    char w:G3004
+      text "told"
+    text " "
+    char w:G4771
+      text "you"
+    text ", ‘"
+    char w:G2532
+      text "I"
+    text " "
+    char w:G3708
+      text "saw"
+    text " "
+    char w:G4771
+      text "you"
+    text " "
+    char w:G5270
+      text "underneath"
+    text " "
+    char w:G2532
+      text "the"
+    text " "
+    char w:G4808
+      text "fig"
+    text " "
+    char w:G4808
+      text "tree"
+    text ",’ "
+    char w:G2532
+      text "do"
+    text " "
+    char w:G4771
+      text "you"
+    text " "
+    char w:G4100
+      text "believe"
+    text "? "
+    char w:G4771
+      text "You"
+    text " "
+    char w:G2316
+      text "will"
+    text " "
+    char w:G3708
+      text "see"
+    text " "
+    char w:G3173
+      text "greater"
+    text " "
+    char w:G3588
+      text "things"
+    text " "
+    char w:G3173
+      text "than"
+    text " "
+    char w:G3588
+      text "these"
+    text "!”"
+  text " "
+  verse-end 50
+  verse-start 51
+  text " "
+  char w:G2532
+    text "He"
+  text " "
+  char w:G3004
+    text "said"
+  text " "
+  char w:G2532
+    text "to"
+  text " "
+  char w:G3588
+    text "him"
+  text ", "
+  char wj
+    text "“"
+    char w:G2316
+      text "Most"
+    text " "
+    char w:G1909
+      text "certainly"
+    text ", "
+    char w:G2532
+      text "I"
+    text " "
+    char w:G3004
+      text "tell"
+    text " "
+    char w:G4771
+      text "you"
+    text " "
+    char w:G2532
+      text "all"
+    text ", hereafter "
+    char w:G4771
+      text "you"
+    text " "
+    char w:G2316
+      text "will"
+    text " "
+    char w:G3708
+      text "see"
+    text " "
+    char w:G3772
+      text "heaven"
+    text " opened, "
+    char w:G2532
+      text "and"
+    text " "
+    char w:G2532
+      text "the"
+    text " angels "
+    char w:G5207
+      text "of"
+    text " "
+    char w:G2316
+      text "God"
+    text " ascending "
+    char w:G2532
+      text "and"
+    text " "
+    char w:G2597
+      text "descending"
+    text " "
+    char w:G1909
+      text "on"
+    text " "
+    char w:G2532
+      text "the"
+    text " "
+    char w:G5207
+      text "Son"
+    text " "
+    char w:G5207
+      text "of"
+    text " "
+    char w:G3778
+      text "Man"
+    text ".”"
+  verse-end 51
+---- notes ----
+note 0 Footnote caller '+'
+  char fr
+    text "1:5 "
+    char ft
+      text "The word translated “overcome” (κατέλαβεν) can also be translated “comprehended.” It refers to getting a grip on an enemy to defeat him. "
+note 1 Footnote caller '+'
+  char fr
+    text "1:14 "
+    char ft
+      text "The phrase “only born” is from the Greek word “μονογενους”, which is sometimes translated “only begotten” or “one and only”."
+note 2 Footnote caller '+'
+  char fr
+    text "1:17 "
+    char ft
+      text "“Christ” means “Anointed One”."
+note 3 Footnote caller '+'
+  char fr
+    text "1:18 "
+    char ft
+      text "The phrase “only born” is from the Greek word “μονογενη”, which is sometimes translated “only begotten” or “one and only”."
+note 4 Footnote caller '+'
+  char fr
+    text "1:18 "
+    char ft
+      text "NU reads “God”"
+note 5 CrossReference caller '+'
+  char xo
+    text "1:23 "
+    char xt
+      text "Isaiah 40:3"
+note 6 Footnote caller '+'
+  char fr
+    text "1:29 "
+    char ft
+      text "“Behold”, from “ἰδοὺ”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
+note 7 Footnote caller '+'
+  char fr
+    text "1:39 "
+    char ft
+      text "4:00 p.m."
+note 8 Footnote caller '+'
+  char fr
+    text "1:41 "
+    char ft
+      text "“Messiah” (Hebrew) and “Christ” (Greek) both mean “Anointed One”."
+note 9 Footnote caller '+'
+  char fr
+    text "1:42 "
+    char ft
+      text "“Cephas” (Aramaic) and “Peter” (Greek) both mean “Rock”."
+---- plain text ----
+1: In the beginning was the Word, and the Word was with God, and the Word was God.
+2: The same was in the beginning with God.
+3: All things were made through him. Without him, nothing was made that has been made.
+4: In him was life, and the life was the light of men.
+5: The light shines in the darkness, and the darkness hasn’t overcome it.
+6: There came a man sent from God, whose name was John.
+7: The same came as a witness, that he might testify about the light, that all might believe through him.
+8: He was not the light, but was sent that he might testify about the light.
+9: The true light that enlightens everyone was coming into the world.
+10: He was in the world, and the world was made through him, and the world didn’t recognize him.
+11: He came to his own, and those who were his own didn’t receive him.
+12: But as many as received him, to them he gave the right to become God’s children, to those who believe in his name:
+13: who were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God.
+14: The Word became flesh and lived among us. We saw his glory, such glory as of the only born Son of the Father, full of grace and truth.
+15: John testified about him. He cried out, saying, “This was he of whom I said, ‘He who comes after me has surpassed me, for he was before me.’”
+16: From his fullness we all received grace upon grace.
+17: For the law was given through Moses. Grace and truth were realized through Jesus Christ.
+18: No one has seen God at any time. The only born Son, who is in the bosom of the Father, has declared him.
+19: This is John’s testimony, when the Jews sent priests and Levites from Jerusalem to ask him, “Who are you?”
+20: He declared, and didn’t deny, but he declared, “I am not the Christ.”
+21: They asked him, “What then? Are you Elijah?” He said, “I am not.” “Are you the prophet?” He answered, “No.”
+22: They said therefore to him, “Who are you? Give us an answer to take back to those who sent us. What do you say about yourself?”
+23: He said, “I am the voice of one crying in the wilderness, ‘Make straight the way of the Lord,’ as Isaiah the prophet said.”
+24: The ones who had been sent were from the Pharisees.
+25: They asked him, “Why then do you baptize if you are not the Christ, nor Elijah, nor the prophet?”
+26: John answered them, “I baptize in water, but among you stands one whom you don’t know.
+27: He is the one who comes after me, who is preferred before me, whose sandal strap I’m not worthy to loosen.”
+28: These things were done in Bethany beyond the Jordan, where John was baptizing.
+29: The next day, he saw Jesus coming to him, and said, “Behold, the Lamb of God, who takes away the sin of the world!
+30: This is he of whom I said, ‘After me comes a man who is preferred before me, for he was before me.’
+31: I didn’t know him, but for this reason I came baptizing in water, that he would be revealed to Israel.”
+32: John testified, saying, “I have seen the Spirit descending like a dove out of heaven, and it remained on him.
+33: I didn’t recognize him, but he who sent me to baptize in water said to me, ‘On whomever you will see the Spirit descending and remaining on him is he who baptizes in the Holy Spirit.’
+34: I have seen and have testified that this is the Son of God.”
+35: Again, the next day, John was standing with two of his disciples,
+36: and he looked at Jesus as he walked, and said, “Behold, the Lamb of God!”
+37: The two disciples heard him speak, and they followed Jesus.
+38: Jesus turned and saw them following, and said to them, “What are you looking for?” They said to him, “Rabbi” (which is to say, being interpreted, Teacher), “where are you staying?”
+39: He said to them, “Come and see.” They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.
+40: One of the two who heard John and followed him was Andrew, Simon Peter’s brother.
+41: He first found his own brother, Simon, and said to him, “We have found the Messiah!” (which is, being interpreted, Christ).
+42: He brought him to Jesus. Jesus looked at him and said, “You are Simon the son of Jonah. You shall be called Cephas” (which is by interpretation, Peter).
+43: On the next day, he was determined to go out into Galilee, and he found Philip. Jesus said to him, “Follow me.”
+44: Now Philip was from Bethsaida, the city of Andrew and Peter.
+45: Philip found Nathanael, and said to him, “We have found him of whom Moses in the law and also the prophets, wrote: Jesus of Nazareth, the son of Joseph.”
+46: Nathanael said to him, “Can any good thing come out of Nazareth?” Philip said to him, “Come and see.”
+47: Jesus saw Nathanael coming to him, and said about him, “Behold, an Israelite indeed, in whom is no deceit!”
+48: Nathanael said to him, “How do you know me?” Jesus answered him, “Before Philip called you, when you were under the fig tree, I saw you.”
+49: Nathanael answered him, “Rabbi, you are the Son of God! You are King of Israel!”
+50: Jesus answered him, “Because I told you, ‘I saw you underneath the fig tree,’ do you believe? You will see greater things than these!”
+51: He said to him, “Most certainly, I tell you all, hereafter you will see heaven opened, and the angels of God ascending and descending on the Son of Man.”

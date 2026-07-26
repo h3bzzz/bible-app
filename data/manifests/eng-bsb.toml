@@ -1,0 +1,29 @@
+# Berean Standard Bible (2020).
+#
+# A contemporary English translation dedicated to the public domain by its
+# publisher — the closest legally-bundlable neighbour to the NIV/NLT register
+# of modern English. (The NIV and NLT themselves are copyrighted by
+# Biblica/Zondervan and Tyndale House respectively; their licences forbid
+# redistribution, so the build gate in §4.3 would refuse them — see
+# tests/fixtures/manifests/eng-niv.toml, which exists to prove exactly that.)
+
+id = "eng-bsb"
+abbrev = "BSB"
+name = "Berean Standard Bible"
+language = "en"
+direction = "ltr"
+scheme = "eng"
+canon = "protestant"
+
+[license]
+redistributable = true
+commercial_use = true
+attribution = """
+The Berean Standard Bible is dedicated to the public domain by BSB \
+Publishing. https://berean.bible/ Text courtesy of eBible.org."""
+
+[source]
+url = "https://ebible.org/Scriptures/engbsb_usfm.zip"
+sha256 = "a7f61bf7986aa11cf3ced7044af79dadce029053573ce99703c2a8d66601e41b"
+publisher = "eBible.org"
+archive = "engbsb_usfm.zip"

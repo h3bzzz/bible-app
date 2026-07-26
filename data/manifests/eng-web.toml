@@ -1,0 +1,34 @@
+# World English Bible.
+#
+# Public domain. Chosen as the first bundled translation because it is
+# unambiguously redistributable, actively maintained, and — unusually — ships
+# with per-word Strong's numbers, which exercises the tagging model from the
+# first import rather than years later.
+
+id = "eng-web"
+abbrev = "WEB"
+name = "World English Bible"
+language = "en"
+direction = "ltr"
+scheme = "eng"
+canon = "protestant"
+
+[license]
+# No SPDX identifier: the WEB is dedicated to the public domain rather than
+# licensed. `spdx` is left unset instead of guessing "CC0-1.0", which would be
+# a claim about a legal instrument the publisher did not invoke.
+redistributable = true
+commercial_use = true
+attribution = """
+The World English Bible is in the public domain. \
+Published by eBible.org and the Michael Paul Johnson estate. \
+https://worldenglish.bible/"""
+
+[source]
+url = "https://ebible.org/Scriptures/eng-web_usfm.zip"
+sha256 = "102fbf7587c2a60566ea4ebd9c82fd66dc1418d64248ffafd8b14bbaa11c89f9"
+publisher = "eBible.org"
+# Path relative to the vendor directory. Requirement §1 — the project must
+# remain buildable if every third-party service disappears — means this archive
+# is committed, not fetched.
+archive = "eng-web_usfm.zip"

@@ -1,0 +1,28 @@
+[package]
+name = "build-corpus"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "build-corpus"
+path = "src/main.rs"
+
+[lib]
+name = "build_corpus"
+path = "src/lib.rs"
+
+[dependencies]
+bible-domain.workspace = true
+bible-import.workspace = true
+bible-storage.workspace = true
+bible-versification.workspace = true
+serde = { workspace = true }
+toml = "0.8"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+sha2 = "0.10"
+
+[dev-dependencies]
+tempfile = "3"
+bible-app-core.workspace = true

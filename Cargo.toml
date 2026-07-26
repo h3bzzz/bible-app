@@ -1,0 +1,41 @@
+[workspace]
+resolver = "2"
+members = [
+    "core/domain",
+    "core/versification",
+    "core/import",
+    "core/storage",
+    "core/app",
+    "tools/build-corpus",
+    "tools/build-annotations",
+    "apps/desktop",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+license = "AGPL-3.0-or-later"
+repository = "https://github.com/h3bzzz/bible-app"
+
+[workspace.dependencies]
+bible-domain = { path = "core/domain" }
+bible-versification = { path = "core/versification" }
+bible-import = { path = "core/import" }
+bible-storage = { path = "core/storage" }
+bible-app-core = { path = "core/app" }
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ciborium = "0.2"
+rusqlite = { version = "0.32", features = ["bundled"] }
+thiserror = "1"
+
+[profile.dev]
+# ADR-0001 consequence 1: keep the inner loop tolerable.
+debug = 1
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true

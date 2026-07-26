@@ -1,0 +1,365 @@
+eng-web PSA 23
+verses: [1, 2, 3, 4, 5, 6]
+---- blocks ----
+para d
+  text "A Psalm by David."
+para q1
+  verse-start 1
+  char w:H3068
+    text "Yahweh"
+  text " "
+  char w:H3068
+    text "is"
+  text " "
+  char w:H3068
+    text "my"
+  text " "
+  char w:H7462
+    text "shepherd"
+  text ";"
+para q2
+  char w:H3808
+    text "I"
+  text " "
+  char w:H3068
+    text "shall"
+  text " "
+  char w:H2637
+    text "lack"
+  text " "
+  char w:H3808
+    text "nothing"
+  text "."
+para q1
+  verse-end 1
+  verse-start 2
+  char w:H5921
+    text "He"
+  text " makes "
+  char w:H5921
+    text "me"
+  text " "
+  char w:H7257
+    text "lie"
+  text " "
+  char w:H7257
+    text "down"
+  text " "
+  char w:H5921
+    text "in"
+  text " "
+  char w:H1877
+    text "green"
+  text " "
+  char w:H4999
+    text "pastures"
+  text "."
+para q2
+  char w:H5921
+    text "He"
+  text " "
+  char w:H5095
+    text "leads"
+  text " "
+  char w:H5921
+    text "me"
+  text " "
+  char w:H5921
+    text "beside"
+  text " "
+  char w:H4496
+    text "still"
+  text " "
+  char w:H4325
+    text "waters"
+  text "."
+para q1
+  verse-end 2
+  verse-start 3
+  char w:H5315
+    text "He"
+  text " "
+  char w:H7725
+    text "restores"
+  text " "
+  char w:H7725
+    text "my"
+  text " "
+  char w:H5315
+    text "soul"
+  text "."
+para q2
+  char w:H5315
+    text "He"
+  text " "
+  char w:H5148
+    text "guides"
+  text " "
+  char w:H5315
+    text "me"
+  text " "
+  char w:H5315
+    text "in"
+  text " "
+  char w:H7725
+    text "the"
+  text " "
+  char w:H4570
+    text "paths"
+  text " "
+  char w:H8034
+    text "of"
+  text " "
+  char w:H6664
+    text "righteousness"
+  text " "
+  char w:H8034
+    text "for"
+  text " "
+  char w:H7725
+    text "his"
+  text " "
+  char w:H8034
+    text "name"
+  text "’s "
+  char w:H4616
+    text "sake"
+  text "."
+para q1
+  verse-end 3
+  verse-start 4
+  char w:H1571
+    text "Even"
+  text " "
+  char w:H3588
+    text "though"
+  text " "
+  char w:H3588
+    text "I"
+  text " "
+  char w:H3212
+    text "walk"
+  text " "
+  char w:H3212
+    text "through"
+  text " "
+  char w:H3588
+    text "the"
+  text " "
+  char w:H1516
+    text "valley"
+  text " "
+  char w:H7626
+    text "of"
+  text " "
+  char w:H3588
+    text "the"
+  text " "
+  char w:H6757
+    text "shadow"
+  text " "
+  char w:H7626
+    text "of"
+  text " "
+  char w:H6757
+    text "death"
+  text ","
+para q2
+  char w:H3588
+    text "I"
+  text " "
+  char w:H1571
+    text "will"
+  text " "
+  char w:H3372
+    text "fear"
+  text " "
+  char w:H3808
+    text "no"
+  text " "
+  char w:H7451
+    text "evil"
+  text ", "
+  char w:H3588
+    text "for"
+  text " "
+  char w:H3588
+    text "you"
+  text " "
+  char w:H1992
+    text "are"
+  text " "
+  char w:H3212
+    text "with"
+  text " "
+  char w:H5978
+    text "me"
+  text "."
+para q1
+  char w:H3588
+    text "Your"
+  text " "
+  char w:H7626
+    text "rod"
+  text " "
+  char w:H3212
+    text "and"
+  text " "
+  char w:H3588
+    text "your"
+  text " "
+  char w:H4938
+    text "staff"
+  text ","
+para q2
+  char w:H1992
+    text "they"
+  text " "
+  char w:H5162
+    text "comfort"
+  text " "
+  char w:H5978
+    text "me"
+  text "."
+para q1
+  verse-end 4
+  verse-start 5
+  char w:H6440
+    text "You"
+  text " "
+  char w:H6186
+    text "prepare"
+  text " "
+  char w:H3068
+    text "a"
+  text " "
+  char w:H7979
+    text "table"
+  text " "
+  char w:H6440
+    text "before"
+  text " "
+  char w:H6440
+    text "me"
+para q2
+  char w:H6440
+    text "in"
+  text " "
+  char w:H6440
+    text "the"
+  text " "
+  char w:H6440
+    text "presence"
+  text " "
+  char w:H7218
+    text "of"
+  text " "
+  char w:H5048
+    text "my"
+  text " "
+  char w:H6887
+    text "enemies"
+  text "."
+para q1
+  char w:H6440
+    text "You"
+  text " anoint "
+  char w:H5048
+    text "my"
+  text " "
+  char w:H7218
+    text "head"
+  text " "
+  char w:H6440
+    text "with"
+  text " "
+  char w:H8081
+    text "oil"
+  text "."
+para q2
+  char w:H5048
+    text "My"
+  text " "
+  char w:H3563
+    text "cup"
+  text " runs "
+  char w:H6440
+    text "over"
+  text "."
+para q1
+  verse-end 5
+  verse-start 6
+  text "Surely "
+  char w:H2896
+    text "goodness"
+  text " "
+  char w:H3068
+    text "and"
+  text " "
+  char w:H2896
+    text "loving"
+  text " "
+  char w:H2617
+    text "kindness"
+  text " "
+  char w:H3068
+    text "shall"
+  text " "
+  char w:H7291
+    text "follow"
+  text " "
+  char w:H7291
+    text "me"
+  text " "
+  char w:H3605
+    text "all"
+  text " "
+  char w:H3605
+    text "the"
+  text " "
+  char w:H3117
+    text "days"
+  text " "
+  char w:H1004
+    text "of"
+  text " "
+  char w:H3605
+    text "my"
+  text " "
+  char w:H2416
+    text "life"
+  text ","
+para q2
+  char w:H3068
+    text "and"
+  text " "
+  char w:H3117
+    text "I"
+  text " "
+  char w:H3068
+    text "will"
+  text " "
+  char w:H3427
+    text "dwell"
+  text " "
+  char w:H3427
+    text "in"
+  text " "
+  char w:H3068
+    text "Yahweh"
+  text "’s "
+  char w:H1004
+    text "house"
+  text " "
+  char w:H3605
+    text "forever"
+  text "."
+  verse-end 6
+---- notes ----
+---- plain text ----
+1: Yahweh is my shepherd; I shall lack nothing.
+2: He makes me lie down in green pastures. He leads me beside still waters.
+3: He restores my soul. He guides me in the paths of righteousness for his name’s sake.
+4: Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me.
+5: You prepare a table before me in the presence of my enemies. You anoint my head with oil. My cup runs over.
+6: Surely goodness and loving kindness shall follow me all the days of my life, and I will dwell in Yahweh’s house forever.

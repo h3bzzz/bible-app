@@ -1,0 +1,379 @@
+/*
+ * Chapter styling.
+ *
+ * Bound by ADR-0002's CSS support floor: flexbox and grid, logical
+ * properties, custom properties for all theming, `rem` throughout, and the
+ * `prefers-*` media queries. No container queries, no load-bearing `:has()`,
+ * no subgrid — four webview engines have to agree on this.
+ *
+ * Logical properties are not stylistic preference here. `padding-inline-start`
+ * is what makes poetry indentation correct in Hebrew and Arabic without a
+ * second stylesheet.
+ */
+
+:root {
+  --ink: #16130f;
+  --ink-muted: #5b5349;
+  --paper: #fbf8f3;
+  --paper-raised: #ffffff;
+  --rule: #ddd5c8;
+  --verse-number: #8a7f70;
+  --accent: #7a5c3e;
+
+  /* Words of Jesus. Red by convention — but never the only cue. */
+  --wj: #a3301f;
+  --wj-underline: rgba(163, 48, 31, 0.35);
+
+  /* Messianic prophecy (ADR-0009). Royal purple: the traditional messianic
+     colour, and deliberately away from the red of words of Jesus — under
+     protanopia the red component of each collapses differently, and the
+     underline-plus-margin-rule non-colour cue carries the rest. */
+  --prophecy: #55308c;
+  --prophecy-wash: rgba(95, 61, 148, 0.16);
+  --prophecy-rule: rgba(95, 61, 148, 0.5);
+
+  /* The reading measure: proportional to the window (always leaving a
+     2.5rem margin each side, so text never runs edge to edge), capped by
+     the reader's width preference below. Wide is the default and the
+     ceiling — beyond 72rem, line length costs more in eye travel than it
+     returns in space used. */
+  --measure: min(72rem, calc(100vw - 5rem));
+
+  --font-body: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+  --font-ui: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+/* The width preference, stamped on the root as data-measure. Three stops:
+   wide (the default above), medium, and narrow — the original book-like
+   column this app shipped with. All three still yield to a small window. */
+:root[data-measure='medium'] {
+  --measure: min(58rem, calc(100vw - 5rem));
+}
+:root[data-measure='narrow'] {
+  --measure: min(46rem, calc(100vw - 5rem));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e8e3da;
+    --ink-muted: #a09889;
+    --paper: #14120f;
+    --paper-raised: #1c1917;
+    --rule: #3a352d;
+    --verse-number: #8b8172;
+    --accent: #c9a37a;
+    /* Words of Jesus go turquoise in the dark theme rather than red: red on a
+       near-black page is harsh at reading length, and the red convention is
+       not the accessibility cue anyway — the underline and the spoken
+       announcement are. Turquoise also stays clearly apart from the indigo
+       prophecy layer. */
+    --wj: #4dd0c4;
+    --wj-underline: rgba(77, 208, 196, 0.4);
+    /* Prophecy goes warm gold in the dark theme: turquoise and gold sit on
+       opposite ends of the blue-yellow axis, which every common
+       colour-vision deficiency leaves intact — and the pairing reads as
+       deliberate rather than accidental. */
+    --prophecy: #e6bd68;
+    --prophecy-wash: rgba(230, 189, 104, 0.2);
+    --prophecy-rule: rgba(230, 189, 104, 0.5);
+  }
+}
+
+/* The viewer's theme toggle stamps data-theme on the root; it must win over
+   the media query in both directions. */
+:root[data-theme='light'] {
+  color-scheme: light;
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --ink: #e8e3da;
+  --ink-muted: #a09889;
+  --paper: #14120f;
+  --paper-raised: #1c1917;
+  --rule: #3a352d;
+  --verse-number: #8b8172;
+  --accent: #c9a37a;
+  --wj: #4dd0c4;
+  --wj-underline: rgba(77, 208, 196, 0.4);
+  --prophecy: #e6bd68;
+  --prophecy-wash: rgba(230, 189, 104, 0.2);
+  --prophecy-rule: rgba(230, 189, 104, 0.5);
+}
+
+/* An explicit light choice must also defeat a dark system preference, so the
+   light values are restated under the attribute, not left to :root alone. */
+:root[data-theme='light'] {
+  --ink: #16130f;
+  --ink-muted: #5b5349;
+  --paper: #fbf8f3;
+  --paper-raised: #ffffff;
+  --rule: #ddd5c8;
+  --verse-number: #8a7f70;
+  --accent: #7a5c3e;
+  --wj: #a3301f;
+  --wj-underline: rgba(163, 48, 31, 0.35);
+  --prophecy: #55308c;
+  --prophecy-wash: rgba(95, 61, 148, 0.16);
+  --prophecy-rule: rgba(95, 61, 148, 0.5);
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  /* No px font sizes anywhere: the root inherits the user's chosen size, and
+     everything below is relative to it. This is what makes dynamic type work
+     without a custom implementation. */
+  font-family: var(--font-body);
+  line-height: 1.7;
+}
+
+/* Visually hidden, still announced. The clip-path pair is deliberate: it is
+   the form that survives all four webview engines. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.chapter {
+  max-inline-size: var(--measure);
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  padding-block: 2rem 4rem;
+}
+
+.chapter-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-block-end: 1.5rem;
+  padding-block-end: 0.5rem;
+  border-block-end: 1px solid var(--rule);
+}
+
+/* ── Blocks ───────────────────────────────────────────────────────────── */
+
+.blk {
+  margin-block: 0 0.35rem;
+}
+
+.blk-p,
+.blk-m {
+  margin-block: 0 1rem;
+  text-indent: 0;
+}
+
+.blk-p + .blk-p {
+  text-indent: 1.25rem;
+  margin-block-start: 0;
+}
+
+/* Poetry. Indentation is padding, never characters. */
+.blk-q1 {
+  padding-inline-start: 1.25rem;
+}
+.blk-q2 {
+  padding-inline-start: 2.5rem;
+}
+.blk-q3 {
+  padding-inline-start: 3.75rem;
+}
+
+/* Hebrew psalm superscription. */
+.blk-d {
+  font-style: italic;
+  color: var(--ink-muted);
+  margin-block-end: 0.75rem;
+}
+
+.blk-sp {
+  font-variant-caps: small-caps;
+  color: var(--ink-muted);
+}
+
+.blk-pc {
+  text-align: center;
+}
+
+.blk-ms1,
+.blk-ms2 {
+  font-size: 1.15rem;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.04em;
+  color: var(--ink-muted);
+  margin-block: 2rem 0.75rem;
+}
+
+.blk-s1,
+.blk-s2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  margin-block: 1.5rem 0.5rem;
+}
+
+.stanza-break {
+  block-size: 1rem;
+  border: 0;
+}
+
+/* ── Verses ───────────────────────────────────────────────────────────── */
+
+.verse-number {
+  font-family: var(--font-ui);
+  font-size: 0.65em;
+  color: var(--verse-number);
+  vertical-align: super;
+  line-height: 0;
+  margin-inline-end: 0.15em;
+  user-select: none;
+}
+
+/* ── Words of Jesus ───────────────────────────────────────────────────── */
+
+.wj {
+  color: var(--wj);
+  /* The non-colour cue. WCAG 1.4.1: colour must not be the only means of
+     conveying information, and that applies to red-letter text as much as to
+     anything else. */
+  text-decoration: underline;
+  text-decoration-color: var(--wj-underline);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+/* ── Annotation layers (ADR-0009) ─────────────────────────────────────── */
+
+/* Annotated verse text. The renderer wraps every text run inside an
+   annotated verse in `.lt` with the layer's class, so the tint covers the
+   words themselves and stops exactly at the verse end. */
+.lt.layer-messianic-prophecy {
+  color: var(--prophecy);
+  background: var(--prophecy-wash);
+  /* The non-colour cue (WCAG 1.4.1): a dotted underline distinct from the
+     solid underline of words of Jesus. */
+  text-decoration: underline dotted;
+  /* Softer than the colour itself: the wash is the primary signal, and a
+     full-strength rule under every word reads as a row of hyperlinks. */
+  text-decoration-color: var(--prophecy-rule);
+  text-decoration-thickness: 0.07em;
+  text-underline-offset: 0.2em;
+  /* The wash reads as one continuous highlight rather than a row of
+     word-shaped boxes: the renderer emits a span per word (the WEB carries
+     per-word Strong's tagging), so without this the padding would break the
+     band at every space. */
+  padding-block: 0.12em;
+}
+
+/* The verse-number marker of an annotated verse: wash plus a marginal rule,
+   so the span's start is findable when scanning the margin. */
+.verse.layer-messianic-prophecy {
+  color: var(--prophecy);
+  background: var(--prophecy-wash);
+  border-inline-start: 3px solid var(--prophecy);
+  padding-inline-start: 0.35rem;
+  margin-inline-start: -0.35rem;
+  border-radius: 2px;
+}
+
+/* ── Character styles ─────────────────────────────────────────────────── */
+
+/* Words supplied by the translator. */
+.ch-add {
+  font-style: italic;
+}
+
+/* The divine name. */
+.ch-nd {
+  font-variant-caps: small-caps;
+  letter-spacing: 0.02em;
+}
+
+.ch-qs {
+  font-style: italic;
+  color: var(--ink-muted);
+  float: inline-end;
+}
+
+.ch-it {
+  font-style: italic;
+}
+.ch-bd {
+  font-weight: 700;
+}
+.ch-sc {
+  font-variant-caps: small-caps;
+}
+
+/* ── Notes ────────────────────────────────────────────────────────────── */
+
+.note-ref {
+  font-family: var(--font-ui);
+  font-size: 0.7em;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  padding: 0 0.1em;
+  cursor: pointer;
+  vertical-align: super;
+  line-height: 0;
+}
+
+.note-ref:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  /* Never removed. */
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.notes {
+  margin-block-start: 3rem;
+  padding-block-start: 1rem;
+  border-block-start: 1px solid var(--rule);
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+}
+
+.notes h2 {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.attribution {
+  margin-block-start: 2.5rem;
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --ink: #000;
+    --paper: #fff;
+    --ink-muted: #333;
+    --rule: #000;
+  }
+  .wj {
+    text-decoration-thickness: 0.12em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

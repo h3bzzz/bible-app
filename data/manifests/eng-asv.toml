@@ -1,0 +1,26 @@
+# American Standard Version (1901).
+#
+# Public domain by age. Included as the classic formal-equivalence text
+# between the KJV and modern translations — the ASV is the ancestor of the
+# RSV, NASB and WEB lines.
+
+id = "eng-asv"
+abbrev = "ASV"
+name = "American Standard Version"
+language = "en"
+direction = "ltr"
+scheme = "eng"
+canon = "protestant"
+
+[license]
+redistributable = true
+commercial_use = true
+attribution = """
+The American Standard Version (1901) is in the public domain. \
+Text courtesy of eBible.org."""
+
+[source]
+url = "https://ebible.org/Scriptures/eng-asv_usfm.zip"
+sha256 = "712b44107ec98a5b8ca339751b37a593061ee630390c6a6d2edc54e334e1d6e4"
+publisher = "eBible.org"
+archive = "eng-asv_usfm.zip"

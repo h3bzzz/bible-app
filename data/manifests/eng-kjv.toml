@@ -1,0 +1,30 @@
+# King James Version (1611, in its standard 1769 Blayney text).
+#
+# Public domain in the United States and almost everywhere else. The one
+# genuine encumbrance is the Crown's letters patent, which restrict *printing*
+# the KJV within the United Kingdom; they say nothing about digital
+# redistribution outside it, and eBible.org distributes this text as public
+# domain. The attribution below states the nuance rather than hiding it.
+
+id = "eng-kjv"
+abbrev = "KJV"
+name = "King James Version"
+language = "en"
+direction = "ltr"
+scheme = "eng"
+canon = "protestant"
+
+[license]
+# Public domain by age; no SPDX instrument to cite, same as the WEB.
+redistributable = true
+commercial_use = true
+attribution = """
+The King James Version (1611, 1769 text) is in the public domain in the \
+United States and most of the world. Printing within the United Kingdom is \
+restricted by Crown letters patent. Text courtesy of eBible.org."""
+
+[source]
+url = "https://ebible.org/Scriptures/eng-kjv2006_usfm.zip"
+sha256 = "4ea6952590d070bfa22985aded48a49581e31b568a60aa09e25f73462e700e7d"
+publisher = "eBible.org"
+archive = "eng-kjv2006_usfm.zip"

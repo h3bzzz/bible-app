@@ -1,0 +1,15 @@
+[package]
+name = "bible-storage"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+bible-domain.workspace = true
+rusqlite = { workspace = true }
+ciborium = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+tempfile = "3"
