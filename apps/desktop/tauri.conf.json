@@ -6,8 +6,8 @@
   "build": {
     "frontendDist": "../ui/dist",
     "devUrl": "http://localhost:5173",
-    "beforeDevCommand": "npm --prefix ../ui run dev",
-    "beforeBuildCommand": "npm --prefix ../ui run build"
+    "beforeDevCommand": "npm --prefix \"$(git rev-parse --show-toplevel)/apps/ui\" run dev",
+    "beforeBuildCommand": "npm --prefix \"$(git rev-parse --show-toplevel)/apps/ui\" run build"
   },
   "app": {
     "windows": [
@@ -27,6 +27,6 @@
   "bundle": {
     "active": true,
     "targets": "all",
-    "resources": ["../../build/corpus.db"]
+    "resources": ["corpus.db"]
   }
 }

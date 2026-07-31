@@ -168,3 +168,6 @@ desktop.ini
 *.tmp
 tmp/
 .cache/
+
+# Tauri mobile: corpus symlinked into desktop for asset packaging (no ../)
+apps/desktop/corpus.db
