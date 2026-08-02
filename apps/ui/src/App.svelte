@@ -17,7 +17,19 @@
   // theme), so the app bar doubles as the titlebar: it carries the drag
   // region and the minimize/maximize/close controls. Null outside Tauri —
   // in a plain browser tab the controls simply don't render.
+  //
+  // A mobile Tauri build has `__TAURI_INTERNALS__` too, so this handle is
+  // non-null on a phone. That is fine for `getCurrentWindow`, but the window
+  // *chrome* — drag region, minimize/maximize/close — is meaningless there:
+  // the OS owns the title bar and there is nothing to minimize. So the chrome
+  // is gated on `isDesktop` below, resolved once from the backend, not on
+  // `appWindow` alone.
   const appWindow = '__TAURI_INTERNALS__' in window ? getCurrentWindow() : null;
+
+  // True only on a desktop build. Drives whether the window chrome renders and
+  // whether the desktop-only commands (`desktop_env`, `toggle_maximize`) may
+  // be invoked — on mobile they are not even registered. Resolved in `start`.
+  let isDesktop = $state(false);
 
   /**
    * Hyprland (and tiling compositors generally) have no minimize; showing a
@@ -160,6 +172,9 @@
   async function start() {
     try {
       if (appWindow) {
+        isDesktop = await invoke('is_desktop');
+      }
+      if (isDesktop) {
         const env = await invoke('desktop_env');
         canMinimize = !String(env).includes('Hyprland');
       }
@@ -335,7 +350,7 @@
     >
       <span aria-hidden="true">{theme === 'dark' ? '☀' : '☾'}</span>
     </button>
-    {#if appWindow}
+    {#if appWindow && isDesktop}
       <span class="win-controls">
         {#if canMinimize}
           <button

@@ -5,6 +5,13 @@ edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
 
+# The shared shell is a library so mobile can link against it. The desktop
+# `main` binary and the iOS/Android hosts all call `bible_desktop_lib::run`.
+# `staticlib` is iOS, `cdylib` is Android, `rlib` is the desktop binary.
+[lib]
+name = "bible_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
 [build-dependencies]
 tauri-build = { version = "2", features = [] }
 
