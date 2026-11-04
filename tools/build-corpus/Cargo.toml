@@ -20,7 +20,7 @@ bible-storage.workspace = true
 bible-versification.workspace = true
 serde = { workspace = true }
 toml = "0.8"
-zip = { version = "2", default-features = false, features = ["deflate"] }
+zip = { version = "9", default-features = false, features = ["deflate"] }
 sha2 = "0.10"
 
 [dev-dependencies]
